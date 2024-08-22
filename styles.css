@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter:700|Inter:400');
+
+body{
+    background-color: #F3F8FA;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+    margin: 10% auto;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 510px;
+    margin: 94px auto;
+}
+
+.about h1{
+    text-align: center;
+}
+
+#content{
+    padding-right: 30px;
+    color: #091012;
+    margin: 0;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    float: left;
+}
+
+.menu li a{
+    text-decoration: none;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #091012;
+    border-bottom: 2px solid transparent;
+}
+
+.menu ul{
+    background-color: #F3F8FA;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    top: 25px;
+    right: 0;
+    position: fixed;
+    width: 70%;
+}
+
+.menu a{
+    display: block;
+    padding: 9px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    display: block;
+    padding: 9px;
+    transition: 0.5s;
+    border-bottom: 2px solid black;
+}
+
+a#Click{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#name{
+    background-color: #05090A;  
+    margin-left: 20px;
+    color: #EEF5F6;
+}
+
+button{
+    border: none;
+    border-radius: 30px;
+    background-color: #489CBF;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#content p{
+    font-weight: 500px;
+}
+
+#Contacts_content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+a{
+    color:#05090A;
+}
+
+#Color_white{
+    color: #EEF5F6;
+}
+
+#content_{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    width: 330px;
+    height: 450px;
+
+    box-shadow: 1px 2px 5px rgb(138, 138, 138);
+    border-radius: 30px;
+}
+
+#portifolio{
+    height: 970px;
+    width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#project_img{
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+#topcen_tered{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#title_{
+    margin-top: 110px;
+}

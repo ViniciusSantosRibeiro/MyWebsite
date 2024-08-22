@@ -84,7 +84,7 @@ li{
 }
 
 .menu a{
-    display: block;
+    display: flex;
     padding: 9px;
     transition: 0.5s;
 }

@@ -62,7 +62,8 @@ li{
 .menu li a{
     text-decoration: none;
     float: left;
-    display: inline;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;

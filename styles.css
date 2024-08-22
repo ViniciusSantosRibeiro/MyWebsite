@@ -39,6 +39,17 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
+#home-content{
+    padding-right: 30px;
+    width: 310px;
+    color: #091012;
+    margin: 0;
+}
+
+#home-title{
+    padding-left: 70px;
+}
+
 #content{
     padding-right: 30px;
     color: #091012;

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:700|Inter:400');
 
 body{
-    background-color: #F3F8FA;
+    background-color: #f5ffff;
     font-style: normal;
     font-family: 'Inter';
     font-weight: 400;
@@ -65,8 +65,9 @@ img{
     padding: 0;
     margin: auto;
     display: flex;
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    list-style-type: none; /* Remove o estilo de lista */
+    justify-content: center;
+    list-style-type: none;
+    background-color: none;
 }
 
 li{
@@ -87,7 +88,6 @@ li{
 }
 
 .menu ul{
-    background-color: #F3F8FA;
     list-style-type: none;
     margin: 0;
     

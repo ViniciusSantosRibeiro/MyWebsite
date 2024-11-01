@@ -204,3 +204,24 @@ a{
     gap: 20px;
     list-style-type: none;
 }
+
+.resume{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.resume p{
+    text-align: justify;
+    align-items: center;
+    text-align-last: center;
+}
+
+#hardskills{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hardskills p {
+    text-align: center;
+}
